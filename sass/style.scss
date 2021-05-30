@@ -17,8 +17,7 @@ img{
 }
 
 .showcase{
-    background:$primary-color;
-    color:#fff;
+    @include set-background($primary-color);
     height:600px;
 
     nav{
@@ -35,7 +34,7 @@ img{
     }
     a{
         text-decoration: none;
-        color:#fff;
+        color:set-text-color($primary-color);
     }
     a:hover{
         color:$secondary-color;

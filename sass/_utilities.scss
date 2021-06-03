@@ -6,6 +6,7 @@
 }
 
 // set margin and padding using loop
+
 $space-amount: (1,2,3,4,5);
 
 @each $space in $space-amount{

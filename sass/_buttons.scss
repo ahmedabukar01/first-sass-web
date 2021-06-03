@@ -8,6 +8,8 @@
         transform:scale(0.98);
     }
 }
+
+// btn styles
 .btn-primary{
     @extend %btn;
     @include set-background(lighten($primary-color, 10%));
